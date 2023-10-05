@@ -21,7 +21,7 @@ sites = {'1': ('Praha', '2', 'PHA'), '2': ('Bratislava', '1', 'BA'), '3': ('Opav
 countries = {int(k): v for k,v in countries.items()}
 sites = {int(k): v for k,v in sites.items()}
 
-ROCNIK = 240
+ROCNIK = 23
 
 """
 SELECT school.*, region.id_country FROM `school` JOIN district ON district.id_district=school.id_district JOIN region on region.id_region = district.id_region
