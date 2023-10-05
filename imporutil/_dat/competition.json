@@ -1,0 +1,21 @@
+[
+  {
+    "id_competition": 89,
+    "id_branch": 2,
+    "name": "Náboj 2021",
+    "empty_state": null,
+    "web_start": "2021-09-27 00:00:00",
+    "graduation_year": 2022,
+    "registration_start": "2021-10-01 00:00:00",
+    "registration_second_round": "2021-10-20 00:00:00",
+    "registration_end": "2021-11-02 00:00:00",
+    "competition_start": "2021-11-05 11:30:00",
+    "competition_duration": "02:00:00",
+    "teams_complete": "2021-11-03 00:00:00",
+    "problems_per_team": 8,
+    "max_teams_per_school": 2,
+    "max_teams_second_round": 2,
+    "max_members_per_team": 5,
+    "ranking_criteria": "score_problems_times"
+  }
+]
