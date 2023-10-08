@@ -96,7 +96,7 @@ with transaction.atomic():
     team_objs = {}
     for t in teams:
         sch_data = schools[t["id_school"]]
-        sch, _ = School.objects.get_or_create(importer="legacy", importer_identifier=t["id_school"], defaults={
+        sch, _ = School.objects.get_or_create(importer="legacy", is_legacy=True, importer_identifier=t["id_school"], defaults={
             "name": sch_data["name"],
             "address": f"{sch_data['street']}, {sch_data['city']}",
             "country": countries[sch_data["id_country"]]
